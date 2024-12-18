@@ -1,13 +1,132 @@
 <!DOCTYPE html>
 
-<html>
+<html class="no-js is-animating">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
 
         <title>
             : catalogue
         </title>
+
+        <!-- ícones -->
+        <link rel="shortcut icon" href="./assets/img/icon.jpg">
+        <link rel="apple-touch-icon-precomposed" href="./assets/img/icon.jpg">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <!-- open graph (facebook) -->
+        <meta property="fb:app_id" content="1097257285229452">
+
+        <!-- open graph -->
+        <meta property="og:url" content="https://ifyoucanhear.github.io/">
+        <meta property="og:type" content="profile">
+        <meta property="og:site_name" content="ifyoucanhear">
+        <meta property="og:title" content="ifyoucanhear">
+        <meta property="og:description" content="im ripe enough for a bigger missed opportunity alone">
+        <meta property="og:image" content="https://ifyoucanhear.github.io/assets/img/icon.jpg">
+
+        <!-- open graph (ios) -->
+        <meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=ifyoucanhear">
+        <meta property="al:ios:app_name" content="Tumblr">
+        <meta property="al:ios:app_store_id" content="305343404">
+
+        <!-- open graph (android) -->
+        <meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=ifyoucanhear">
+        <meta property="al:android:app_name" content="Tumblr">
+        <meta property="al:android:package" content="com.tumblr">
+
+        <!-- open graph (twitter) -->
+        <meta charset="utf-8">
+        <meta name="twitter:site" content="ifyoucanhear">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="im ripe enough for a bigger missed opportunity alone">
+        <meta name="twitter:title" content="ifyoucanhear">
+
+        <meta name="twitter:app:name:iphone" content="Tumblr">
+        <meta name="twitter:app:name:ipad" content="Tumblr">
+        <meta name="twitter:app:name:googleplay" content="Tumblr">
+        <meta name="twitter:app:id:iphone" content="305343404">
+        <meta name="twitter:app:id:ipad" content="305343404">
+        <meta name="twitter:app:id:googleplay" content="com.tumblr">
+        <meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=ifyoucanhear&amp;referrer=twitter-cards">
+        <meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=ifyoucanhear&amp;referrer=twitter-cards">
+        <meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=ifyoucanhear&amp;referrer=twitter-cards">
+
+        <!-- jquery v1.10.2 -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- desativando o atalho de ctrl + u -->
+        <script>
+            document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+                    return false;
+                } else {
+                    return true;
+                }
+            };
+
+            $(document).keypress("u", function(e) {
+                if (e.ctrlKey) {
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+        </script>
+
+        <!-- desativando o atalho de ctrl + shift + i e o atalho de f12 -->
+        <script>
+            $(document).keydown(function(e) {
+                if (e.keyCode == 123) { // f12
+                    return false;
+                } else if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // ctrl + shift + i
+                    return false;
+                }
+            });
+        </script>
+
+        <script>
+            (function(html) {
+                html.className = html.className.replace(/\bno-js\b/,'js')
+            })(document.documentElement);
+        </script>
+
+        <meta name="robots" content="max-image-preview:large">
+
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px;
+            }
+        </style>
+
+        <link rel="stylesheet" id="wp-block-library" href="./assets/css/dist/style.min.css" type="text/css" media="all">
+
+        <style id='classic-theme-styles-inline-css' type='text/css'>
+            /*! esse arquivo é gerado automaticamente */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                
+                font-size: 1.125em;
+            }
+            
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                
+                text-decoration: none;
+            }
+        </style>
     </head>
 
     <body>
