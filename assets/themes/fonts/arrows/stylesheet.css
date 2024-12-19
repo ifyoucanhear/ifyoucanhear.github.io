@@ -2,7 +2,7 @@
     font-family: 'arrows';
 
     src: url('arrows.woff2') format('woff2')
-        url('arrows.woff') format('woff');
+         url('arrows.woff') format('woff');
 
     font-weight: normal;
     font-style: normal;

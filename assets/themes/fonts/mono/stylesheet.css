@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'mono_roman';
+
+    src: url('mono_roman.woff2') format('woff2'),
+         url('mono_roman.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}

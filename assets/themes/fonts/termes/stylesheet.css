@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'tex_gyre_termesbold';
+
+    src: url('tex_gyre_termes_bold.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}

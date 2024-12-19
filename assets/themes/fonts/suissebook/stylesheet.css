@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'suissieintlbook';
+
+    src: url('suissieintlbook.woff2') format('woff2'),
+         url('suissieintlbook.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'suissemedium';
+
+    src: url('suissemedium.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'suissesemibold';
+
+    src: url('suissesemibold.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
